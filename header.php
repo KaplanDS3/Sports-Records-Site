@@ -8,18 +8,17 @@
 	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-	<div class="header">
-	<a href="/index.php" class="heading-top">
+	<div id="header">
+	<a href="/index.php" id="header">
 	
-		<ul id="header" class="header-logo">
-			<li><img src="greengates-school-logo.png" width="100" height="100"></li>
-			<li>
-				<ul>
-					<li><h1>Sample School</h1></li>
-					<li><h2>Sports Records</h2></li>
-				</ul>
-			</li>
-		</ul>
+		<div id="header" class="heading">
+			<img class="logo-heading" src="header_logo.png">
+				<div id="header" class="inner-heading">
+					<div class="first-line">School</div>
+					<div class="second-line">Sports Records</div>
+				</div>
+		</div>
+
 		
 		</a>
 	<div id="wrapper">
