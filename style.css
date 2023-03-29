@@ -26,10 +26,10 @@ body {
 	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
 	width:100%;
 	height:80px;
-	padding: 3 30px;
+	padding: 9 30px;
 	background-color: #FFF;
 	text-align: left;
-	font-size: 85%;
+	font-size: 100%;
 }
 
 #menu a:hover {
@@ -48,12 +48,8 @@ body {
 	clear: both;
 }
 
-#home {
-	margin: 3px;
-}
-
 #sign-in {
-	margin: -3px;
+	margin: -9px;
 }
 
 /* begin table styles */
@@ -108,12 +104,43 @@ ul{
 }
 
 /* Menu styles */
+.section-block {
+	display: inline-flex;
+    flex-direction: column;
+	border: 1px solid #000;
+	border-radius: 10px;
+	margin: -3px;
+}
+
 .item {
-	background-color: #00728B;
-	border: 1px solid #032472;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
-	padding: 3px;
+	padding: 9px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.item-home {
+	border-radius: 10px;
+	background-color: #0C5633;
+	color: #FFF;
+	font-family: Arial;
+	padding: 9px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.item-heading {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #039450;
+	color: #FFF;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 9px;
 	text-decoration: none;
 }
 
@@ -149,7 +176,7 @@ textarea {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    max-width: 150%;
+    max-width: 100%;
     text-decoration: none;
 	padding: 3px;
 }
