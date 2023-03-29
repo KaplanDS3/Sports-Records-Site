@@ -6,8 +6,8 @@ body {
 }
 
 #wrapper {
-	width: 900px;
-	margin: 0 auto; 			/* center the page */
+	width: 700px;
+	margin: 0 auto; /* center the page */
 }
 
 #content {
@@ -19,7 +19,6 @@ body {
 }
 
 #menu {
-	float: left;
 	border-bottom: none;		/* avoid a double border */
 	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
 	width:100%;
@@ -28,10 +27,17 @@ body {
 	background-color: #FFF;
 	text-align: left;
 	font-size: 100%;
+	float: left;
+	display: flex;
+	justify-content: space-between;
 }
 
 #menu a:hover {
-	background-color: #009FC1;
+	background-color: #0b4e9f;
+}
+
+#sign-in {
+	float: right;
 }
 
 #header {
@@ -44,15 +50,6 @@ body {
 	font-size: 65%;
 	padding: 3px 0 0 0;
 	clear: both;
-}
-
-#sign-in {
-	margin-top: -30px;
-	float: right;
-}
-
-#middle-sub-section {
-	float: center;
 }
 
 /* begin table styles */
@@ -114,7 +111,6 @@ ul{
     flex-direction: column;
 	border: 1px solid #000;
 	border-radius: 10px;
-	margin: -3px;
 	text-align: center;
 }
 
@@ -124,20 +120,21 @@ ul{
 	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
-	padding: 9px;
+	padding: 12px;
 	text-decoration: none;
 	text-align: center;
 }
 
 .item-no-heading {
 	border-radius: 8.5px;
+	border: 1px solid #000;
 	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
 	padding: 9px;
 	text-decoration: none;
 	text-align: center;
-	margin-right: 5px;
+	margin-bottom: 45px;
 }
 
 .item-heading {
@@ -148,6 +145,7 @@ ul{
 	font-family: 'Times New Roman', Times, serif;
 	padding: 9px;
 	text-decoration: none;
+	border-bottom: 1px solid #000;
 }
 
 .item-middle {

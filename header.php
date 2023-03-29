@@ -31,7 +31,6 @@
 			 <a class="item-middle" href="/about.php">About Us</a>
 			 <a class="item" href="/contact.php">Contact</a>
 		</div>
-		</div>
 <?php
 
   session_start();
@@ -44,6 +43,7 @@ if (isset($_SESSION['signed_in'])) {
 ?>
 	    </div>
     </div>
+</div>
 </div>
 
 <!-- End of Header -->
