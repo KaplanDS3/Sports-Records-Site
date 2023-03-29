@@ -145,6 +145,15 @@ ul{
 	text-decoration: none;
 }
 
+.item-middle {
+	background-color: #0C5633;
+	color: #FFF;
+	font-family: Arial;
+	padding: 9px;
+	text-decoration: none;
+	text-align: center;
+}
+
 .leftpart {
 	width: 70%;
 }

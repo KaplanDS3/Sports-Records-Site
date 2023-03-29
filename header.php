@@ -24,7 +24,10 @@
 		    <a class="item-no-heading" href="/index.php">Home</a>
 		<div class="section-block">
 			 <div class="item-heading">Athletic Records</div>
-			 <a class="item" href="/sports">Sports</a>
+			 <a class="item" href="/sports.php">Sports</a>
+			 <div class="item-heading">About</div>
+			 <a class="item-middle" href="/about.php">About Us</a>
+			 <a class="item" href="/contact/php">Contact</a>
 		</div>
 <?php
 
