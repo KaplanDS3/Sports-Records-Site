@@ -1,6 +1,9 @@
 body {
-	background-color: #484848;
-	text-align: center;			/* make sure IE centers the page too */
+	background-color: #ffffff;
+	text-align: center; /* make sure IE centers the page too */
+	margin:0;
+  	padding:0;	
+	border: 1px solid #000;
 }
 
 #wrapper {
@@ -10,7 +13,6 @@ body {
 
 #content {
 	background-color: #fff;
-	border: 1px solid #000;
 	float: left;
 	font-family: Arial;
 	padding: 20px 30px;
@@ -20,7 +22,6 @@ body {
 
 #menu {
 	float: left;
-	border: 1px solid #000;
 	border-bottom: none;		/* avoid a double border */
 	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
 	width:100%;
@@ -41,8 +42,9 @@ body {
 	margin: 0 auto; 
 }
 
-
 #footer {
+	font-size: 65%;
+	padding: 3px 0 0 0;
 	clear: both;
 }
 
@@ -85,10 +87,15 @@ h1, #header {
 	text-decoration: none;
 }
 
-h1, #footer {
-	font-family: Arial;
-	color: #F1F3F1;
-	text-decoration:none;
+h2, #header {
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	text-decoration: none;
+}
+
+h4, #footer {
+	font-family: 'Times New Roman', Times, serif;
+	color: #0C5633;
 }
 
 
@@ -122,10 +129,6 @@ ul{
 	font-size: 75%;
 	color: #373737;
 }
-#footer {
-	font-size: 65%;
-	padding: 3px 0 0 0;
-}
 
 .topic-post {
 	height: 100px;
@@ -141,25 +144,46 @@ textarea {
 	height: 200px;
 }
 
-.heading-top{
-	text-decoration:none;
+.heading {
+	display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 150%;
+    text-decoration: none;
+	padding: 3px;
 }
 
-.heading-logo{
-	display: inline;
-	padding-right: 10px;
-	padding-left: 0;
+.logo-heading {
+	padding-right: 20px;
+	width: 117px;
+	height: 149px;
 }
 
-.container {
-	width: 100%;
-	float: left;
-  }
+.inner-heading {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    text-decoration: none;
+}
 
-.element {
-	width: 45%;
-	float: left;
-	padding: 10px;
+.first-line {
+	padding-bottom: 0px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.5rem;
+	align-items: center;
+}
+
+.second-line {
+	padding-top: 0px;
+	font-family: 'Times New Roman', Times, serif;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1rem;
 }
 
 .header {

@@ -1,6 +1,6 @@
 </div> <!--  close content -->
 <div class="footer">
-<h2>Footer</h2>
+<h4>Created by Ori Geva Kapeluk</h4>
 </div>
 </body>
 </html>
