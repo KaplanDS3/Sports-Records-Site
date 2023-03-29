@@ -21,7 +21,7 @@
 		</a>
 	<div id="wrapper">
 	    <div id="menu">
-		    <a class="item-home" href="/index.php">Home</a>
+		    <a class="item-no-heading" href="/index.php">Home</a>
 		<div class="section-block">
 			 <div class="item-heading">Athletic Records</div>
 			 <a class="item" href="/sports">Sports</a>
@@ -31,9 +31,9 @@
   session_start();
 
 if (isset($_SESSION['signed_in'])) {
-	echo '<a class="item" id="sign-in" href="/signout.php" style="float: right;">Sign Out</a>';
+	echo '<a class="item-no-heading" id="sign-in" href="/signout.php">Sign Out</a>';
 } else {
-    echo '<a class="item" id="sign-in" href="/signin.php" style="float: right;">Administrator Sign In</a>';
+    echo '<a class="item-no-heading" id="sign-in" href="/signin.php">Administrator Sign In</a>';
 }
 ?>
 	    </div>
