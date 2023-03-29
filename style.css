@@ -3,7 +3,6 @@ body {
 	text-align: center; /* make sure IE centers the page too */
 	margin:0;
   	padding:0;	
-	border: 1px solid #000;
 }
 
 #wrapper {
@@ -17,7 +16,6 @@ body {
 	font-family: Arial;
 	padding: 20px 30px;
 	text-align: left;
-	width: 100%;				/* fill up the entire div */
 }
 
 #menu {
@@ -49,8 +47,12 @@ body {
 }
 
 #sign-in {
-	margin: -3px;
+	margin-top: -30px;
 	float: right;
+}
+
+#middle-sub-section {
+	float: center;
 }
 
 /* begin table styles */
@@ -98,7 +100,9 @@ h4, #footer {
 
 h3 {margin: 0; padding: 0;}
 
-hr {color: black}
+hr {
+	color: #000;
+}
 
 ul{
 	padding-left: 0;
@@ -111,11 +115,12 @@ ul{
 	border: 1px solid #000;
 	border-radius: 10px;
 	margin: -3px;
+	text-align: center;
 }
 
 .item {
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 8.5px;
+	border-bottom-right-radius: 8.5px;
 	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
@@ -125,7 +130,7 @@ ul{
 }
 
 .item-no-heading {
-	border-radius: 10px;
+	border-radius: 8.5px;
 	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
@@ -136,8 +141,8 @@ ul{
 }
 
 .item-heading {
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	border-top-left-radius: 8.5px;
+	border-top-right-radius: 8.5px;
 	background-color: #028447;
 	color: #FFF;
 	font-family: 'Times New Roman', Times, serif;
@@ -152,6 +157,7 @@ ul{
 	padding: 9px;
 	text-decoration: none;
 	text-align: center;
+	border-bottom: 1px solid #000;
 }
 
 .leftpart {

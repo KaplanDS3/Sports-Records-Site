@@ -25,9 +25,12 @@
 		<div class="section-block">
 			 <div class="item-heading">Athletic Records</div>
 			 <a class="item" href="/sports.php">Sports</a>
-			 <div class="item-heading">About</div>
+		</div>
+		<div class="section-block" id="middle-sub-section">
+			<div class="item-heading">About</div>
 			 <a class="item-middle" href="/about.php">About Us</a>
-			 <a class="item" href="/contact/php">Contact</a>
+			 <a class="item" href="/contact.php">Contact</a>
+		</div>
 		</div>
 <?php
 
