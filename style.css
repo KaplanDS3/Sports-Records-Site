@@ -12,10 +12,9 @@ body {
 
 #content {
 	background-color: #fff;
-	float: left;
 	font-family: Arial;
 	padding: 20px 30px;
-	text-align: left;
+	margin: 0 auto;
 }
 
 #menu {
@@ -45,6 +44,10 @@ body {
 	background-color:#0C5633;
 	margin: 0 auto; 
 	border-bottom: 1px solid #000;
+}
+
+#home {
+	margin: auto;
 }
 
 #footer {
@@ -104,6 +107,11 @@ ul{
 
 hr{
 	margin-top: 138px;
+}
+
+p{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 100%;
 }
 
 /* Menu styles */
