@@ -1,6 +1,4 @@
-<html>
-	<title>Sign In</title>
-</html>
+<html><title>Sign In</title></html>
 
 <?php
 //signin.php
