@@ -22,15 +22,16 @@
 	<div id="wrapper">
 	    <div id="menu">
 		    <a class="item-no-heading" href="/index.php">Home</a>
-		<div class="section-block">
+		<div class="section-block-a">
 			 <div class="item-heading">Athletic Records</div>
 			 <a class="item" href="/sports.php">Sports</a>
 		</div>
-		<div class="section-block" id="middle-sub-section">
+		<div class="section-block-b">
 			<div class="item-heading">About</div>
 			 <a class="item-middle" href="/about.php">About Us</a>
 			 <a class="item" href="/contact.php">Contact</a>
 		</div>
+		
 <?php
 
   session_start();
@@ -44,7 +45,7 @@ if (isset($_SESSION['signed_in'])) {
 	    </div>
     </div>
 </div>
-</div>
+<div><hr></div>
 
 <!-- End of Header -->
 		<div id="content">

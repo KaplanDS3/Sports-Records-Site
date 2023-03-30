@@ -22,7 +22,7 @@ body {
 	border-bottom: none;		/* avoid a double border */
 	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
 	width:100%;
-	height:80px;
+	height:119px;
 	padding: 9 30px;
 	background-color: #FFF;
 	text-align: left;
@@ -30,6 +30,7 @@ body {
 	float: left;
 	display: flex;
 	justify-content: space-between;
+	margin-top: 1px;
 }
 
 #menu a:hover {
@@ -42,8 +43,8 @@ body {
 
 #header {
 	background-color:#0C5633;
-	
 	margin: 0 auto; 
+	border-bottom: 1px solid #000;
 }
 
 #footer {
@@ -97,30 +98,22 @@ h4, #footer {
 
 h3 {margin: 0; padding: 0;}
 
-hr {
-	color: #000;
-}
-
 ul{
 	padding-left: 0;
 }
 
-/* Menu styles */
-.section-block {
-	display: inline-flex;
-    flex-direction: column;
-	border: 1px solid #000;
-	border-radius: 10px;
-	text-align: center;
+hr{
+	margin-top: 138px;
 }
 
+/* Menu styles */
 .item {
 	border-bottom-left-radius: 8.5px;
 	border-bottom-right-radius: 8.5px;
 	background-color: #0C5633;
 	color: #FFF;
 	font-family: Arial;
-	padding: 12px;
+	padding: 13px;
 	text-decoration: none;
 	text-align: center;
 }
@@ -134,7 +127,7 @@ ul{
 	padding: 9px;
 	text-decoration: none;
 	text-align: center;
-	margin-bottom: 45px;
+	margin-bottom: 80px;
 }
 
 .item-heading {
@@ -156,6 +149,24 @@ ul{
 	text-decoration: none;
 	text-align: center;
 	border-bottom: 1px solid #000;
+}
+
+.section-block-a {
+	height: 81px;
+	display: inline-flex;
+    flex-direction: column;
+	border: 1px solid #000;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.section-block-b {
+	height: 119px;
+	display: inline-flex;
+    flex-direction: column;
+	border: 1px solid #000;
+	border-radius: 10px;
+	text-align: center;
 }
 
 .leftpart {
