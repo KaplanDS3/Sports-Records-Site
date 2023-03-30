@@ -51,13 +51,14 @@ body {
 }
 
 #stage {
-	margin-left: 20%;
-    width: 382px;
-    height: 292px;
+    width: 100%;
+    height: 302px;
   }
 
   #stage img {
-    position: absolute;
+    position: fixed;
+	left: 50%;
+	margin-left: -230px;
   }
   #stage img {
     border: 1px solid #000;
@@ -164,8 +165,8 @@ p{
 }
 
 .item-heading {
-	border-top-left-radius: 8.5px;
-	border-top-right-radius: 8.5px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
 	background-color: #028447;
 	color: #FFF;
 	font-family: 'Times New Roman', Times, serif;
@@ -194,7 +195,7 @@ p{
 }
 
 .section-block-b {
-	height: 119px;
+	height: 118px;
 	display: inline-flex;
     flex-direction: column;
 	border: 1px solid #000;
@@ -281,9 +282,10 @@ textarea {
 	float: left;
 }
 
-.flex-row {
+.about-row {
 	display: flex;
 	flex-direction: row;
+	gap: 50px;
 }
 
 .flew-column {
@@ -293,12 +295,8 @@ textarea {
 
 .about-paragraph {
 	width: 325;
-	margin-top: 116px;
-	margin-left: 20px;
-}
-
-.about-img {
-	padding-left: 60px;
+	margin-top: 25%;
+	font-size: 25px;
 }
 
 .heading-contact {
