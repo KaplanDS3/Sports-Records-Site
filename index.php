@@ -1,4 +1,5 @@
-<title>School Athletic Records</title>
+<html><title>School Athletic Records</title></html>
+
 <?php
 //Implemintation of the header and connection to the database
 include 'connect.php';
