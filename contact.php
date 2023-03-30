@@ -1,3 +1,4 @@
+<!-- Add functionality -->
 <html><title>Contact</title></html>
 
 <?php
