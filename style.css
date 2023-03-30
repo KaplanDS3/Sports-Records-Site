@@ -65,7 +65,7 @@ body {
 
   #stage img:nth-of-type(1) {
     animation-name: fader;
-    animation-delay: 4s;
+    animation-delay: 2.5s;
     animation-duration: 1s;
     z-index: 20;
   }
@@ -81,10 +81,9 @@ body {
     to   { opacity: 0.0; }
   }
 
-#footer {
-	font-size: 65%;
-	padding: 3px 0 0 0;
-	clear: both;
+#text-box {
+	float: left;
+	margin-top: -16px;
 }
 
 /* begin table styles */
@@ -122,11 +121,6 @@ h2, #header {
 	font-family: 'Times New Roman', Times, serif;
 	color: #000;
 	text-decoration: none;
-}
-
-h4, #footer {
-	font-family: 'Times New Roman', Times, serif;
-	color: #0C5633;
 }
 
 
@@ -247,8 +241,8 @@ textarea {
 
 .logo-heading {
 	padding-right: 20px;
-	width: 117px;
-	height: 149px;
+	width: 82px;
+	height: 100px;
 }
 
 .inner-heading {
@@ -287,14 +281,14 @@ textarea {
 	float: left;
 }
 
-.footer {
-	width: 100%;
-	float: left;
-}
-
-.flex {
+.flex-row {
 	display: flex;
 	flex-direction: row;
+}
+
+.flew-column {
+	display: flex;
+	flex-direction: column;
 }
 
 .about-paragraph {
@@ -306,4 +300,54 @@ textarea {
 .about-img {
 	padding-left: 60px;
 }
+
+.heading-contact {
+	font-family: 'Times New Roman', Times, serif;
+	color:#000;
+	text-decoration: none;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+textarea.subject {
+	resize: none;
+	width: 550px;
+	height: 21px;
+	float: left;
+	margin-top: 30px;
+	margin-left: -57px;
+}
+
+.heading-subject {
+	font-family: 'Times New Roman', Times, serif;
+	color: #000;
+	float: left;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+textarea.body {
+	resize: none;
+	width: 550px;
+	height: 188px;
+	float: left;
+	margin-top: 92px;
+	margin-left: -551px;
+}
+
+.heading-body {
+	font-family: 'Times New Roman', Times, serif;
+	color: #000;
+	float: left;
+	margin-top: 70px;
+	margin-left: -551px;
+	text-decoration: none;
+}
+
+.submit {
+	float: left;
+	margin-left: 4px;
+	margin-top: 258px;
+}
+
 
