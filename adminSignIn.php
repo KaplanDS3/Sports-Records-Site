@@ -45,11 +45,13 @@ include 'header.php';
 <?php
 
 if(isset($_POST['Signin'])){
-    $query="SELECT * FROM `admin_login` WHERE `username`='".mysqli_real_escape_string($conn,$_POST['user_name'])."' AND `password`='".mysqli_real_escape_string($conn,$_POST['user_pass'])."'";
+    $query="SELECT * FROM `admin_login` WHERE `username`='".mysqli_real_escape_string($conn,$_POST['user_name'])."' AND `password`='".mysqli_real_escape_string($conn,$_POST['user_pass'])."' AND `name`='".mysqli_real_escape_string($conn,$_SESSION['name'])."'";
     $result=mysqli_query($conn,$query);
     if($result){
         if(mysqli_num_rows($result)==1){
-            echo "correct";
+            session_start();
+            $_SESSION['adminLogId']=$query="SELECT `name` FROM `admin_login`";
+            header("location: adminHome.php");
         }
         else{
             echo "<script>alert('Incorrect Password');</script>";
@@ -59,9 +61,7 @@ if(isset($_POST['Signin'])){
         echo "Query failed: ".mysqli_error($conn);
     }
 }
-    
-
-	
+    	
 ?>
 
 <?php
