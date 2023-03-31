@@ -38,7 +38,7 @@
 if (isset($_SESSION['signed_in'])) {
 	echo '<a class="item-no-heading" id="sign-in" href="/signout.php">Sign Out</a>';
 } else {
-    echo '<a class="item-no-heading" id="sign-in" href="/signin.php">Administrator Sign In</a>';
+    echo '<a class="item-no-heading" id="sign-in" href="/adminSignIn.php">Administrator Sign In</a>';
 }
 ?>
 	    </div>
