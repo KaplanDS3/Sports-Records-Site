@@ -32,18 +32,10 @@
 		</div>
 		
 <?php
+//Checks if the user is signed in and accordingly changes the "Administrator Sign In" button
 include 'adminHeader.php';
 
 ?>
-
-<!--
-if (isset($_SESSION['Signin'])) {
-	echo '<a class="item-no-heading" id="sign-in" href="/signout.php">Sign Out</a>';
-} else {
-    echo '<a class="item-no-heading" id="sign-in" href="/adminSignIn.php">Administrator Sign In</a>';
-}
--->
-
 	    </div>
     </div>
 </div>
