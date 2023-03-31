@@ -18,20 +18,43 @@ else
 	{
 		/*the form hasn't been posted yet, display it
 		  note that the action="" will cause the form to post to the same page it is on */
-		?>		
-		
-		  <form method="post" action="" id="log-in-box">
+		?>	
+
+		  <form method="POST" action="" id="log-in-box">
 			<div class="log-in-fields">
 				<div class="username-heading"><b>Username:</b></div>
 				<input class="username" type="text" name="user_name" required placeholder="..."/>
 				<div class="password-heading"><b>Password:</b></div>
-				<input class="password" type="password" name="user_pass" required placeholder="...">
+				<div class="password-box">
+				<input id="password" type="password" name="user_pass" required placeholder="...">
+				<img id="eye" src="img/eye-close.png" width="15" height="10">
+				</div>
 				<div id="sign-in-button">
 			<input class="sign-in-button" type="submit" value="Sign in" />
 		</div>
 		<div>Only administrator credentials are allowed</div>
 			</div>
+			
 		 </form>
+
+		 <script>
+			let eyeicon = document.getElementById("eye");
+			let password = document.getElementById("password");
+
+			eyeicon.onclick = function(){
+				if (password.type == "password"){
+					password.type = "text";
+					eyeicon.src = "img/eye-open.png";
+				}
+				else{
+					password.type = "password";
+					eyeicon.src = "img/eye-close.png";
+				}
+			}
+
+		</script>
+
+		 
 
 		 <?php
 	}
