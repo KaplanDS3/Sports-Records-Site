@@ -175,7 +175,7 @@ p{
 	text-align: center;
 }
 
-.item-no-heading {
+.item-no-heading-1 {
 	border-radius: 8.5px;
 	border: 1px solid #000;
 	background-color: #0C5633;
@@ -185,6 +185,23 @@ p{
 	text-decoration: none;
 	text-align: center;
 	margin-bottom: 80px;
+}
+
+.item-no-heading-2 {
+	border-radius: 8.5px;
+	border: 1px solid #000;
+	background-color: #0C5633;
+	color: #FFF;
+	font-family: Arial;
+	padding: 9px;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.flex-signout{
+	display: inline-flex;
+	flex-direction: column;
 }
 
 .item-heading {

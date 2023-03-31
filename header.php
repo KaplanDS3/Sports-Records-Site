@@ -21,7 +21,7 @@
 		</a>
 	<div id="wrapper">
 	    <div id="menu">
-		    <a class="item-no-heading" href="/index.php">Home</a>
+		    <a class="item-no-heading-1" href="/index.php">Home</a>
 		<div class="section-block">
 			 <div class="item-heading">Athletic Records</div>
 			 <a class="item" href="/sports.php">Sports</a>
@@ -32,15 +32,18 @@
 		</div>
 		
 <?php
+include 'adminHeader.php';
 
-  session_start();
+?>
 
+<!--
 if (isset($_SESSION['Signin'])) {
 	echo '<a class="item-no-heading" id="sign-in" href="/signout.php">Sign Out</a>';
 } else {
     echo '<a class="item-no-heading" id="sign-in" href="/adminSignIn.php">Administrator Sign In</a>';
 }
-?>
+-->
+
 	    </div>
     </div>
 </div>
