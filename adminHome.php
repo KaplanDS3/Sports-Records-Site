@@ -9,7 +9,7 @@ include 'header.php';
 <?php
 if(isset($_SESSION['adminLogId'])){
 ?>
-    <h1>Welcome PE Department!</h1>
+    <h1>Welcome <?php echo $_SESSION['adminLogId']?>!</h1>
 <?php
 }
 else{

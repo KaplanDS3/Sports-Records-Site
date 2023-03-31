@@ -45,12 +45,12 @@ include 'header.php';
 <?php
 
 if(isset($_POST['Signin'])){
-    $query="SELECT * FROM `admin_login` WHERE `username`='".mysqli_real_escape_string($conn,$_POST['user_name'])."' AND `password`='".mysqli_real_escape_string($conn,$_POST['user_pass'])."' AND `name`='".mysqli_real_escape_string($conn,$_SESSION['name'])."'";
+    $query="SELECT * FROM `admin_login` WHERE `username`='".mysqli_real_escape_string($conn,$_POST['user_name'])."' AND `password`='".mysqli_real_escape_string($conn,$_POST['user_pass'])."'";
     $result=mysqli_query($conn,$query);
     if($result){
         if(mysqli_num_rows($result)==1){
             session_start();
-            $_SESSION['adminLogId']=$query="SELECT `name` FROM `admin_login`";
+            $_SESSION['adminLogId']=$_POST['user_name'];
             header("location: adminHome.php");
         }
         else{

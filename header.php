@@ -35,7 +35,7 @@
 
   session_start();
 
-if (isset($_SESSION['signed_in'])) {
+if (isset($_SESSION['Signin'])) {
 	echo '<a class="item-no-heading" id="sign-in" href="/signout.php">Sign Out</a>';
 } else {
     echo '<a class="item-no-heading" id="sign-in" href="/adminSignIn.php">Administrator Sign In</a>';
