@@ -19,8 +19,6 @@ include 'header.php';
 window.addEventListener("DOMContentLoaded", function(e) {
 
 // Original JavaScript code by Chirp Internet: chirpinternet.eu
-// Please acknowledge use of this code by including this header.
-
 var stage = document.getElementById("stage");
 var fadeComplete = function(e) { stage.appendChild(arr[0]); };
 var arr = stage.getElementsByTagName("img");
