@@ -37,10 +37,6 @@ body {
 	background-color: #0b4e9f;
 }
 
-#sign-in {
-	float: right;
-}
-
 #header {
 	background-color:#0C5633;
 	margin: 0 auto; 
@@ -62,6 +58,19 @@ body {
 	display: inline-flex;
 	align-items: center;
 	justify-content: space-evenly;
+}
+
+#log-in-box {
+	width: 30%;
+	height: 60%;
+	margin-top: 20px;
+	display: inline-flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+#sign-in-button input:hover{
+	background-color: #0b4e9f;
 }
 
 #stage {
@@ -135,7 +144,11 @@ h2, #header {
 }
 
 
-h3 {margin: 0; padding: 0;}
+h3 {
+	margin: 0;
+	padding: 0;
+	font-family: 'Times New Roman', Times, serif;
+}
 
 ul{
 	padding-left: 0;
@@ -261,6 +274,50 @@ textarea {
 	color: #fff;
 	text-decoration: none;
 	font-size: 1.5rem;
+}
+
+.log-in-fields {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.username-heading {
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.username {
+	margin-bottom: 5%;
+	border: none;
+	background: #f5f5f5;
+	font-size: 17px;
+}
+
+.password-heading {
+	text-align: left;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.password {
+	margin-bottom: 5%;
+	border: none;
+	background: #f5f5f5;
+	font-size: 17px;
+}
+
+.sign-in-button {
+	padding: 15px;
+	background:#0C5633;
+	color:#fff;
+	font-size: 15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 
 .header {

@@ -1,0 +1,1 @@
+INSERT INTO `admin_login`(`username`, `password`, `email`, `name`) VALUES ('PE_Dep_Admin', 'q&D$D2EZg@w8cHfQ6t*oq6fY2VZD9!', 'schoolrecordscontact@gmail.com', 'PE Department')
