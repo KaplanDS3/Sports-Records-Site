@@ -38,6 +38,7 @@ else
 		 </form>
 
 		 <script>
+			//Show and hide password function
 			let eyeicon = document.getElementById("eye");
 			let password = document.getElementById("password");
 
@@ -110,4 +111,8 @@ else
 	}
 }
 
+?>
+
+<?php
+include 'footer.php';
 ?>
