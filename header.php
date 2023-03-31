@@ -10,7 +10,7 @@
 	<a href="/index.php" id="header">
 	
 		<div id="header" class="heading">
-			<img class="logo-heading" src="header_logo.png">
+			<img class="logo-heading" src="img\header_logo.png">
 				<div class="inner-heading">
 					<div class="first-line">School</div>
 					<div class="second-line">Athletic Records</div>
