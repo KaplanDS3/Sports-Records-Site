@@ -17,7 +17,6 @@ include 'header.php';
 				<input id="password" type="password" name="user_pass" required placeholder="...">
 				<img id="eye" src="img/eye-close.png" width="15" height="10">
 				</div>
-                <div class="forgot-pass"><a href="#">Forgot Password?</a></div>
 				<div id="sign-in-button">
                 <input class="sign-in-button" type="submit" value="Sign in" name="Signin">
 		</div>

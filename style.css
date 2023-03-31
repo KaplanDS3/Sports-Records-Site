@@ -344,12 +344,7 @@ textarea {
 	border-radius: 30px;
 	margin: 0 auto;
 	margin-bottom: 10px;
-}
-
-.forgot-pass {
-	text-align: left;
-	margin-bottom: 5%;
-	font-size: 13px;
+	margin-top: 10px;
 }
 
 .header {
