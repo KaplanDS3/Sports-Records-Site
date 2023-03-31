@@ -55,6 +55,15 @@ body {
 	margin: 0 auto;
 }
 
+#sports {
+	width: 100%;
+	height: 60%;
+	margin-top: 20px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 #stage {
     width: 100%;
     height: 302px;
@@ -270,12 +279,6 @@ textarea {
 	gap: 50px;
 }
 
-.contact-column {
-	display: flex;
-	flex-direction: column;
-	text-align: left;
-}
-
 .about-paragraph {
 	width: 325;
 	margin-top: 25%;
@@ -287,4 +290,17 @@ textarea {
 	font-size: 15px;
 	float: left;
 
+}
+
+.flex-sports {
+	display: flex;
+	flex-direction: row;
+}
+
+.track-img {
+	border: 1px solid #000;
+}
+
+.field-img {
+	border: 1px solid #000;
 }
