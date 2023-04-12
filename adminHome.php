@@ -10,6 +10,15 @@ include 'header.php';
 if(isset($_SESSION['adminLogId'])){
 ?>
     <h1>Welcome <?php echo $_SESSION['adminLogId']?>!</h1>
+<a href="/editRec.php">
+    <div class="box-admin">
+        <div class="box-text">Edit Records</div>
+    </div>
+</a>
+
+
+
+
 <?php
 }
 else{

@@ -53,7 +53,7 @@ if(isset($_POST['Signin'])){
             header("location: adminHome.php");
         }
         else{
-            echo "<script>alert('Incorrect Password');</script>";
+            echo "<script>alert('Incorrect Credentials');</script>";
         }
     }
     else{
