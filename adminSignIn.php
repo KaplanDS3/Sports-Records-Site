@@ -1,13 +1,13 @@
 <html><title>Administrator Sign In</title></html>
 
 <?php
-//signin.php
-require 'connect.php';
+//Implemintation of the header and connection to the database
+include 'connect.php';
 include 'header.php';
-
 ?>
+
 <h1>Sign In</h1>
-            <!-- Sign In form -->
+        <!-- Sign In form -->
 		  <form method="POST" id="log-in-box">
 			<div class="log-in-fields">
 				<div class="username-heading"><b>Username:</b></div>
@@ -43,6 +43,7 @@ include 'header.php';
 		</script>
 <?php
 
+//Checks the credentials sent by the user
 if(isset($_POST['Signin'])){
     $query="SELECT * FROM `admin_login` WHERE `username`='".mysqli_real_escape_string($conn,$_POST['user_name'])."' AND `password`='".mysqli_real_escape_string($conn,$_POST['user_pass'])."'";
     $result=mysqli_query($conn,$query);

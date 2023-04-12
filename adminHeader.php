@@ -1,4 +1,5 @@
 <?php
+//Checks if the user is signed in to change the "sign in" button accordingly
 session_start();
 if(isset($_SESSION['adminLogId'])){
 ?>
