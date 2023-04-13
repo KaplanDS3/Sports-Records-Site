@@ -8,7 +8,7 @@ include 'header.php';
 
 <h1><b>Track Events</b></h1>
 
-<div id="track" class="flex-column">
+<div id="box-space" class="flex-column">
     <div class="flex-row">
     <a href="/60m.php">
     <div class="box">
@@ -44,9 +44,6 @@ include 'header.php';
     </a>
     </div>
 </div>
-
-
-
 
 <?php
 include 'footer.php';
