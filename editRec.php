@@ -121,5 +121,10 @@ if (!$result) {
         echo '</div>';
     }
 }
-
 ?>
+
+<a href="editRecFilter.php">
+    <div id="button">
+        <input class="return-button" type="submit" value="Return">
+    </div>
+</a>

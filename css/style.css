@@ -376,7 +376,6 @@ textarea {
 	cursor: pointer;
 	width: 150px;
 	border-radius: 30px;
-	float: left;
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
@@ -434,13 +433,14 @@ textarea {
 }
 
 .editRec-box {
-	background-color: #021568;
+	background-color: #0C5633;
   	padding: 65px;
   	border: 1px solid #000;
 	width: 95px;
 	left: 50%;
 	border-radius: 20px;
 	text-decoration: none;
+	text-decoration-line: none;
 }
 
 .box-admin {
