@@ -95,7 +95,7 @@ if (!$result) {
     } else {
         echo '<div class="view-table_container">';
         echo '<form action="editRec.php" method="post">';
-        echo '<table  class="sports_table">';
+        echo '<table class="view-sports_table">';
         echo '<thead><tr><th>Sport</th><th>Grade</th><th>Type</th><th>Holder</th><th>Record</th><th>Year</th></tr></thead>';
         while($row = $result -> fetch_assoc())
         {
@@ -111,9 +111,3 @@ if (!$result) {
     }
 }
 ?>
-
-<a href="/sports.php">
-    <div id="button">
-        <input class="view-return-button" type="submit" value="Return">
-    </div>
-</a>

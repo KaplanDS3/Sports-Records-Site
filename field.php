@@ -1,4 +1,4 @@
-<html><title>About Us</title></html>
+<html><title>Field Events</title></html>
 
 <?php
 //Implemintation of the header and connection to the database
@@ -10,23 +10,23 @@ include 'header.php';
 
 <div id="box-space" class="flex-column">
     <div class="flex-row">
-    <a href="800m.php">
+    <a href="/viewRec.php?sport=high_jump">
     <div class="box">
         <div class="box-text">High Jump</div>
     </div>
     </a>
-    <a href="800m.php">
+    <a href="/viewRec.php?sport=long_jump">
     <div class="box">
         <div class="box-text">Long Jump</div>
     </div>
 </div>
     <div class="flex-row-bottom">
-    <a href="/1lap.php">
+    <a href="/viewRec.php?sport=javelin">
     <div class="box">
         <div class="box-text">Javelin</div>
     </div>
     </a>
-    <a href="/2laps.php">
+    <a href="/viewRec.php?sport=shot_put">
     <div class="box">
         <div class="box-text">Shot Put</div>
     </div>

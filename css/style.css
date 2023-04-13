@@ -529,7 +529,17 @@ textarea {
     padding: 5px;
 }
 
+.view-sports_table th,
+.view-sports_table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
 .sports_table th {
+    background-color: #0C5633;
+}
+
+.view-sports_table th {
     background-color: #0C5633;
 }
 

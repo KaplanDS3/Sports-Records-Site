@@ -1,10 +1,12 @@
-<html><title>Edit Records</title></html>
+<html><title>Edit Records Home</title></html>
 
 <?php
 //Implemintation of the header and connection to the database
 include 'connect.php';
 include 'header.php';
-?>
+
+if(isset($_SESSION['adminLogId'])){?>
+
 
 <h2><b>Which event would you like to edit?</b></h2>
 
@@ -64,6 +66,12 @@ include 'header.php';
     </a>
     </div>
 </div>
+<?php
+}
+else{
+    header("location: noAccess.php");
+}
+?>
 
 <?php
 include 'footer.php';
