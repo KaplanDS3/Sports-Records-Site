@@ -380,6 +380,21 @@ textarea {
 	margin-top: 10px;
 }
 
+.view-return-button {
+	padding: 15px;
+	background:#0C5633;
+	color:#fff;
+	font-size: 15px;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	width: 150px;
+	border-radius: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 50%;
+}
+
 .header {
 	width: 100%;
 	float: left;
@@ -487,11 +502,25 @@ textarea {
     align-items: center;
 }
 
+.view-table_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	width: 1250px;
+}
+
 .sports_table {
     border: 1px solid black;
     border-collapse: collapse;
     margin-bottom: 20px;
     width: 100%;
+}
+
+.view-sports_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 150%;
 }
 
 .sports_table th,
