@@ -8,6 +8,7 @@ include 'header.php';
 
 <h1><b>Field Events</b></h1>
 
+<!-- Link boxes for each category of records -->
 <div id="box-space" class="flex-column">
     <div class="flex-row">
     <a href="/viewRec.php?sport=high_jump">

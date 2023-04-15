@@ -3,6 +3,7 @@
 session_start();
 if(isset($_SESSION['adminLogId'])){
 ?>
+    <!-- Changing the "sign in" button on the header to that of "sign out" and adding an additional "home" button whenever this page is called -->
     <div class="flex-signout">
         <a class="item-no-heading-2" id="sign-out" href="/adminSignOut.php">Sign Out</a>
         <a class="item-no-heading-2" id="admin-home-link" href="/adminHome.php">Admin HomePage</a>

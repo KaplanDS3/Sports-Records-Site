@@ -5,11 +5,11 @@
 include 'connect.php';
 include 'header.php';
 
+//Checks if the user is logged in in order to provide access
 if(isset($_SESSION['adminLogId'])){?>
-
-
 <h2><b>Which event would you like to edit?</b></h2>
 
+<!-- Link boxes for each category of records -->
 <div id="box-space" class="flex-column">
     <div class="flex-row">
     <a href="/editRec.php?sport=60m">
@@ -71,8 +71,5 @@ if(isset($_SESSION['adminLogId'])){?>
 else{
     header("location: noAccess.php");
 }
-?>
-
-<?php
 include 'footer.php';
 ?>

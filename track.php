@@ -8,6 +8,7 @@ include 'header.php';
 
 <h1><b>Track Events</b></h1>
 
+<!-- Link boxes for each category of records -->
 <div id="box-space" class="flex-column">
     <div class="flex-row">
     <a href="/viewRec.php?sport=60m">

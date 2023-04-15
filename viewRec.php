@@ -1,12 +1,12 @@
 <html><title>View Records</title></html>
 <?php
 
-//index.php
-include 'connect.php';  // Database setting and connection
-include 'header.php';   // The header for the page
+//Implemintation of the header and connection to the database
+include 'connect.php';
+include 'header.php';
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $errors = array(); /* declare the array for later use */
+    $errors = array();
 
     if (!isset($_POST['sport_type'])) {
         $errors[] = 'You must select a record to update';
@@ -28,17 +28,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errors[] = 'The year value must not be empty.';
     }
 
-    if (!empty($errors)) /*check for an empty array, if there are errors, they're in this array (note the ! operator)*/ {
+    if (!empty($errors)) {
         echo 'Uh-oh.. a couple of fields are not filled in correctly..';
         echo '<ul>';
-        foreach ($errors as $key => $value) /* walk through the array so all the errors get displayed */ {
-            echo '<li>' . $value . '</li>'; /* this generates a nice error list */
+        foreach ($errors as $key => $value) {
+            echo '<li>' . $value . '</li>';
         }
         echo '</ul>';
     } else {
-        //the form has been posted without errors, so save it
-        //notice the use of mysql_real_escape_string, keep everything safe!
-        //also notice the sha1 function which hashes the password
         $sport = $conn->real_escape_string($_POST['sport']);
         $sport_id = $conn->real_escape_string($_POST['sport_id']);
         $holder = $conn->real_escape_string($_POST['holder']);
@@ -50,7 +47,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         $result = $conn->query($sql);
         if (!$result) {
-            //something went wrong, display the error
             echo 'Something went wrong while signing in. Please try again later.';
         } else {
             echo "<h3>Record successfully updated</h3>";
@@ -84,7 +80,6 @@ $sql = "SELECT
             Sport_type LIKE '". $sport_type."'
             AND sport LIKE '". $sport."'";
 
-// echo $sql;
 $result = $conn->query($sql);
 
 if (!$result) {

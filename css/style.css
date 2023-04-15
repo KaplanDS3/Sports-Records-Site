@@ -380,21 +380,6 @@ textarea {
 	margin-top: 10px;
 }
 
-.view-return-button {
-	padding: 15px;
-	background:#0C5633;
-	color:#fff;
-	font-size: 15px;
-	border: 0;
-	outline: none;
-	cursor: pointer;
-	width: 150px;
-	border-radius: 30px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	margin-left: 50%;
-}
-
 .header {
 	width: 100%;
 	float: left;

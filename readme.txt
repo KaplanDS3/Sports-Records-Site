@@ -1,1 +1,0 @@
-http://localhost/Sports/editRec.php?sport=60m&Type=Boys
