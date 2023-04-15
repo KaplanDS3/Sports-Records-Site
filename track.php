@@ -11,34 +11,34 @@ include 'header.php';
 <!-- Link boxes for each category of records -->
 <div id="box-space" class="flex-column">
     <div class="flex-row">
-    <a href="/viewRec.php?sport=60m">
+    <a href="/viewRec.php?sport=60m" class="box-link">
     <div class="box">
         <div class="box-text">60 Meters</div>
     </div>
     </a>
-    <a href="/viewRec.php?sport=800m">
+    <a href="/viewRec.php?sport=800m" class="box-link">
     <div class="box">
         <div class="box-text">800 Meters</div>
     </div>
     </a>
-    <a href="/viewRec.php?sport=1500m">
+    <a href="/viewRec.php?sport=1500m" class="box-link">
     <div class="box">
         <div class="box-text">1500 Meters</div>
     </div>
     </a>
 </div>
     <div class="flex-row">
-    <a href="/viewRec.php?sport=1_lap">
+    <a href="/viewRec.php?sport=1_lap" class="box-link">
     <div class="box">
         <div class="box-text">1 Lap</div>
     </div>
     </a>
-    <a href="/viewRec.php?sport=2_lap">
+    <a href="/viewRec.php?sport=2_lap" class="box-link">
     <div class="box">
         <div class="box-text">2 Laps</div>
     </div>
     </a>
-    <a href="/viewRec.php?sport=relay">
+    <a href="/viewRec.php?sport=relay" class="box-link">
     <div class="box">
         <div class="box-text">Relay</div>
     </div>

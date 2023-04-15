@@ -13,12 +13,12 @@ if(isset($_SESSION['adminLogId'])){
     <h1>Welcome <?php echo $_SESSION['adminLogId']?>!</h1>
     <div id="button-admin">
         <div class="flex-row">
-            <a href="/editRecFilter.php">
+            <a href="/editRecFilter.php" class="box-link">
                 <div class="box-admin">
                     <div class="box-text">Edit Records</div>
                 </div>
             </a>
-            <a href="/sports.php">
+            <a href="/sports.php" class="box-link">
                 <div class="box-admin">
                     <div class="box-text">View Records</div>
                 </div>
