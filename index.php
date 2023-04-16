@@ -10,10 +10,10 @@ include 'header.php';
 	<p>All the information you need to know about the athletic records set in sports events during the school's history in a simple and effective format!</p>
 </div>
 <div id="stage">
-	<img src="images/home_img1.jpg" width="660" height="400">
-	<img src="images/home_img2.jpg" width="660" height="400">
-	<img src="images/home_img3.jpg" width="660" height="400">
-	<img src="images/home_img4.jpg" width="660" height="400">
+	<img src="images/home_img1.png" width="660" height="400">
+	<img src="images/home_img2.png" width="660" height="400">
+	<img src="images/home_img3.png" width="660" height="400">
+	<img src="images/home_img4.png" width="660" height="400">
 </div>
 
 <script>

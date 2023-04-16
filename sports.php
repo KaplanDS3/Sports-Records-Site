@@ -14,7 +14,7 @@ include 'header.php';
     </div>
     <div>
         <div><b>Field Events</b></div>
-        <a href="/field.php"><img class="field-img" src="images/field.jpg" width="300" height="300"></a>
+        <a href="/field.php"><img class="field-img" src="images/field.png" width="300" height="300"></a>
     </div>
 </div>
 

@@ -13,7 +13,7 @@ include 'header.php';
         <p class="about-paragraph">This website was created with the sole purpose of giving students the ability to view the school's athletic records, any time and any where!</p>
     </div>
     <div>
-        <img src="images/aboutus_img.jpg" width="370 " height="300">
+        <img src="images/aboutus_img.png" width="370 " height="300" class="about-img">
     </div>
 </div>
 
