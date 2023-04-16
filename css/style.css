@@ -214,11 +214,6 @@ a #track{
 	margin-bottom: 5px;
 }
 
-.flex-signout{
-	display: inline-flex;
-	flex-direction: column;
-}
-
 .item-heading {
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
@@ -237,6 +232,11 @@ a #track{
 	border: 1px solid #000;
 	border-radius: 10px;
 	text-align: center;
+}
+
+.flex-signout{
+	display: inline-flex;
+	flex-direction: column;
 }
 
 .leftpart {
