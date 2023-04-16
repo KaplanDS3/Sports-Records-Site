@@ -15,7 +15,7 @@ include 'header.php';
 				<div class="password-heading"><b>Password:</b></div>
 				<div class="password-box">
 				<input id="password" type="password" name="user_pass" required placeholder="...">
-				<img id="eye" src="img/eye-close.png" width="15" height="10">
+				<img id="eye" src="images/eye-close.png" width="15" height="10">
 				</div>
 				<div id="button">
                 	<input class="sign-in-button" type="submit" value="Sign in" name="Signin">
@@ -33,11 +33,11 @@ include 'header.php';
 			eyeicon.onclick = function(){
 				if (password.type == "password"){
 					password.type = "text";
-					eyeicon.src = "img/eye-open.png";
+					eyeicon.src = "images/eye-open.png";
 				}
 				else{
 					password.type = "password";
-					eyeicon.src = "img/eye-close.png";
+					eyeicon.src = "images/eye-close.png";
 				}
             }
 		</script>
